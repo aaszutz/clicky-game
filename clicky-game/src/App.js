@@ -55,7 +55,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Sorry! Try Again!",
+      rightWrong: "Opps! Try Again!",
       clicked: []
     });
     this.handleShuffle();
@@ -70,7 +70,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Clicky Game!"
+          title="Coffee Clicky Game!"
           score={this.state.currentScore}
           topScore={this.state.topScore}
           rightWrong={this.state.rightWrong}

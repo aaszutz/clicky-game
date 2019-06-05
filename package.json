@@ -1,0 +1,20 @@
+{
+  "name": "clicky-game",
+  "version": "1.0.0",
+  "description": "Matching Clicky Game - Alyssa Szutz",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaszutz/clicky-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaszutz/clicky-game/issues"
+  },
+  "homepage": "https://github.com/aaszutz/clicky-game#readme"
+}

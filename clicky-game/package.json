@@ -9,6 +9,9 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1"
   },
+  "engines": {
+    "node": "10.3.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -29,19 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+    }
   }
-}
-{
-  "name": "starbucks-clicky-app",
-  "description": "Alyssa's Coffee Clicky Game",
-  "version": "1.0.0",
-  "engines": {
-    "node": "10.3.0"
-  }
-}
-{
-"scripts": {
-  "start": "node index.js",
-  "build": "ng build",
-  "heroku-postbuild": "ng build --prod" // this will be run on Heroku
-}
+
+
+
